@@ -36,5 +36,21 @@
   		<artifactId>gson</artifactId>
   		<version>2.6.2</version>
   	</dependency>
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>1.4.192</version>
+    </dependency>
+  	<dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>javax.servlet-api</artifactId>
+		  <version>3.0.1</version>
+	  	<scope>provided</scope>
+	  </dependency>
+  	<dependency>
+	  	<groupId>javax</groupId>
+	  	<artifactId>javaee-api</artifactId>
+	  	<version>7.0</version>
+	  </dependency>
   </dependencies>
 </project>
